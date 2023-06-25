@@ -1,0 +1,83 @@
+/* Estilos para el Jumbotron */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para el formulario */
+.form-group label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.form-control {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+/* Estilos para la tarjeta */
+.card {
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ced4da;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.card-body {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ced4da;
+    font-size: 1rem;
+    padding: 1rem;
+}
